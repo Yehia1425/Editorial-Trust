@@ -1,10 +1,12 @@
-
-
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-slate-100">
 
 <div class="flex justify-between items-center h-16 px-8 max-w-[1440px] mx-auto">
-<div class="text-xl font-bold font-headline tracking-tight text-slate-900">Editorial Trust</div>
+        <div routerLink="/home" class="flex items-center space-x-3">
+      <img src="/Images/WhatsApp Image 2026-04-16 at 9.09.11 PM.jpeg"  class="h-14 w-14 rounded-full" alt="Logo">
+      <div class="text-xl font-bold font-headline tracking-tight text-slate-900">Editorial Trust</div>
+    </div>
+
 
 <div class="hidden md:flex gap-8 items-center">
 <a class="font-headline font-semibold tracking-tight text-sm text-blue-600 border-b-2 border-blue-600 pb-1" href="#">Platform</a>
@@ -21,7 +23,7 @@
 </div>
 </nav>
 
-<main class="pt-16">
+<main class="pt-16 ">
 
 <!-- Hero Section -->
 <section class="relative min-h-[921px] flex items-center overflow-hidden bg-white">
@@ -97,3 +99,78 @@ Empowering Authority in Publishing
 
 </main>
 
+
+<footer class="bg-white border-t border-slate-100 text-slate-700 px-8 py-12">
+  <div class="max-w-[1440px] mx-auto">
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-5 gap-12">
+
+      <!-- Brand + Newsletter -->
+      <div class="lg:col-span-3 xl:col-span-2">
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">
+Editorial Trust
+        </h2>
+
+        <p class="text-sm text-slate-500 mb-5">
+          Join our newsletter to stay up to date on features and releases.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3 mb-3">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="flex-1 p-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+
+          <button
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+          >
+            Subscribe
+          </button>
+        </div>
+
+        <p class="text-xs text-slate-400">
+          By subscribing you agree to our Privacy Policy and receive updates.
+        </p>
+      </div>
+
+      <!-- About -->
+      <ul class="flex flex-col gap-3">
+        <h4 class="font-semibold text-slate-900 mb-2">About Us</h4>
+        <li><a class="hover:text-slate-900 transition">FAQ</a></li>
+        <li><a class="hover:text-slate-900 transition">Contact</a></li>
+        <li><a class="hover:text-slate-900 transition">Returns</a></li>
+        <li><a class="hover:text-slate-900 transition">Blog</a></li>
+        <li><a class="hover:text-slate-900 transition">Shipping</a></li>
+      </ul>
+
+      <!-- Customer Support -->
+      <ul class="flex flex-col gap-3">
+        <h4 class="font-semibold text-slate-900 mb-2">Customer Support</h4>
+        <li><a class="hover:text-slate-900 transition">Affiliates</a></li>
+        <li><a class="hover:text-slate-900 transition">Apple Pay Payments</a></li>
+        <li><a class="hover:text-slate-900 transition">Returns</a></li>
+        <li><a class="hover:text-slate-900 transition">Returns Policy</a></li>
+      </ul>
+
+      <!-- Social -->
+      <ul class="flex flex-col gap-3">
+        <h4 class="font-semibold text-slate-900 mb-2">Follow Us</h4>
+
+        <div class="flex gap-4 text-slate-500 text-xl">
+          <a class="hover:text-blue-600 transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="hover:text-pink-500 transition"><i class="fa-brands fa-instagram"></i></a>
+          <a class="hover:text-sky-500 transition"><i class="fa-brands fa-twitter"></i></a>
+          <a class="hover:text-blue-700 transition"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </ul>
+
+    </div>
+
+    <!-- Bottom line -->
+    <div class="border-t border-slate-100 mt-10 pt-6 text-sm text-slate-400 text-center">
+      © 2026 Nevo Shop. All rights reserved.
+    </div>
+
+  </div>
+</footer>

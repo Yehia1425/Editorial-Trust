@@ -1,0 +1,86 @@
+<main class="flex-grow flex items-center justify-center p-6 min-h-screen font-sans text-[#191c21]"
+      style="background-color:#f9f9ff;
+             background-image: radial-gradient(#d6e3ff 0.5px, transparent 0.5px);
+             background-size:24px 24px;">
+
+  <div class="relative w-full max-w-[440px]">
+
+    <!-- Branding -->
+    <div class="mb-12 text-center">
+      <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl mb-4"
+         >
+        <span class="material-symbols-outlined text-white text-2xl">shield_person</span>
+      </div>
+
+      <h1 class="font-extrabold text-3xl tracking-tight">Editorial Trust</h1>
+      <p class="mt-2 text-sm text-[#486176]">Secure access to the curator's platform</p>
+    </div>
+
+    <!-- Card -->
+    <div class="bg-white rounded-xl p-8 md:p-10 shadow-[0_20px_40px_rgba(25,28,33,0.06)] relative overflow-hidden">
+
+      <!-- Header -->
+      <div class="mb-8">
+        <h2 class="text-xl font-bold">Sign In</h2>
+        <p class="text-sm mt-1 text-[#424752]">Please enter your credentials to continue</p>
+      </div>
+
+      <form class="space-y-6">
+
+        <!-- Email -->
+        <div class="space-y-2">
+          <label class="block text-[11px] uppercase font-semibold text-[#486176] px-1">
+            Email Address
+          </label>
+          <input
+            type="email"
+            placeholder="curator@editorialtrust.com"
+            class="w-full h-12 px-4 rounded-xl text-sm outline-none"
+            style="background:#f2f3fb; color:#191c21;"
+          />
+        </div>
+
+        <!-- Password -->
+        <div class="space-y-2">
+          <div class="flex justify-between items-center px-1">
+            <label class="text-[11px] uppercase font-semibold text-[#486176]">
+              Password
+            </label>
+
+          </div>
+
+          <input
+            type="password"
+            placeholder="••••••••"
+            class="w-full h-12 px-4 rounded-xl text-sm outline-none"
+            style="background:#f2f3fb; color:#191c21;"
+          />
+        </div>
+
+        <!-- Button -->
+<button
+  routerLink="/home"
+  type="button"
+  class="w-full h-12 text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow-md transition-all hover:scale-[1.02]"
+  style="background: linear-gradient(135deg,#00488d 0%,#005fb8 100%);">
+  <span>Log In</span>
+</button>
+
+      </form>
+
+
+
+      <!-- Footer -->
+      <div class="mt-10 text-center">
+        <p class="text-sm text-[#424752]">
+          Don't have an account?
+          <a routerLink="/register" class="text-[#00488d] font-bold hover:underline">Create Account</a>
+        </p>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</main>
